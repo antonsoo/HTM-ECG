@@ -1,0 +1,9 @@
+
+To read a CSV,
+X = readCSV(Åepath to the fileÅf);
+ 
+To Run it, use
+ 
+plotError(X, 1,2,3);
+ 
+where X is the data from CSV. You may have to change three parameters: 1, 2, 3. The first is the column of the original data, the second is the column of the prediction, and the third is the column of anomaly.
